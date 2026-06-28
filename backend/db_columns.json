@@ -1,0 +1,36 @@
+{
+  "prescriptions": [
+    "id",
+    "appointment_id",
+    "follow_up_date",
+    "created_at",
+    "consultation_id",
+    "medicines",
+    "doctor_id",
+    "patient_id",
+    "prescription_date",
+    "investigations",
+    "diagnosis",
+    "advice",
+    "notes",
+    "symptoms",
+    "status",
+    "prescription_number",
+    "instructions"
+  ],
+  "appointments": [
+    "family_member_id",
+    "patient_id",
+    "doctor_id",
+    "appointment_date",
+    "start_time",
+    "end_time",
+    "status",
+    "department_id",
+    "id",
+    "created_at",
+    "updated_at",
+    "reason",
+    "notes"
+  ]
+}

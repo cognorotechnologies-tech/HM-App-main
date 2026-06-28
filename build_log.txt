@@ -1,0 +1,22 @@
+
+> hm-app@0.0.0 build
+> tsc -b && vite build
+
+src/features/admin/AppointmentManager.tsx(3,1): error TS6133: 'Button' is declared but its value is never read.
+src/features/admin/AppointmentManager.tsx(12,23): error TS6133: 'error' is declared but its value is never read.
+src/features/admin/AppointmentManager.tsx(30,54): error TS2322: Type 'string' is not assignable to type '"pending" | "confirmed" | "completed" | "cancelled" | "no-show" | null | undefined'.
+src/features/admin/DoctorsManager.tsx(8,1): error TS6133: 'supabase' is declared but its value is never read.
+src/features/admin/DoctorsManager.tsx(60,17): error TS2783: 'id' is specified more than once, so this usage will be overwritten.
+src/features/appointments/BookAppointment.tsx(2,1): error TS6133: 'useForm' is declared but its value is never read.
+src/features/appointments/BookAppointment.tsx(9,1): error TS6133: 'Input' is declared but its value is never read.
+src/features/appointments/BookAppointment.tsx(10,27): error TS6133: 'startOfToday' is declared but its value is never read.
+src/features/auth/LoginForm.tsx(21,11): error TS6133: 'setSession' is declared but its value is never read.
+src/features/doctor/DoctorAppointments.tsx(39,54): error TS2322: Type 'string' is not assignable to type '"pending" | "confirmed" | "completed" | "cancelled" | "no-show" | null | undefined'.
+src/features/patient/AppointmentList.tsx(2,35): error TS6133: 'Appointment' is declared but its value is never read.
+src/features/prescriptions/PrescriptionView.tsx(62,74): error TS2769: No overload matches this call.
+  Overload 1 of 4, '(value: string | number | Date): Date', gave the following error.
+    Argument of type 'string | null' is not assignable to parameter of type 'string | number | Date'.
+      Type 'null' is not assignable to type 'string | number | Date'.
+  Overload 2 of 4, '(value: string | number): Date', gave the following error.
+    Argument of type 'string | null' is not assignable to parameter of type 'string | number'.
+      Type 'null' is not assignable to type 'string | number'.
